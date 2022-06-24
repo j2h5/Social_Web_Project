@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="menu">
-	<ul>
+	<ul>  
 	    <li id="logo">fastcampus</li>
 	    <li><a href="<c:url value='/'/>">Home</a></li>
 	    <li><a href="<c:url value='/board/list'/>">Board</a></li>
