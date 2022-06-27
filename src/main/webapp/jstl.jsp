@@ -27,7 +27,7 @@
 <c:choose>
 	<c:when test="${age >= 19}">성인입니다.</c:when>
 	<c:when test="${0 <= age && age < 19}">성인이 아닙니다.</c:when>
-	<c:otherwise>값이 유효하지 않습니다.</c:otherwise>
+	<c:otherwise>값이 유효하지 않습니다~~~!.</c:otherwise>
 </c:choose>
 <br>
 <c:set var="now" value="<%=new java.util.Date() %>"/>
